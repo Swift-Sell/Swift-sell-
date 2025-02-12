@@ -72,3 +72,59 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">Meu Site</div>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#valores">Nossos Valores</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h1>Bem-vindo ao Meu Site</h1>
+        <p>Oferecemos as melhores soluções para você.</p>
+    </section>
+
+    <section id="valores" class="info-section">
+        <h2>Nossos Valores</h2>
+        <p>Compromisso, inovação e qualidade no atendimento ao cliente.</p>
+    </section>
+
+    <section id="servicos" class="services">
+        <h2>Nossos Serviços</h2>
+        <div class="service-box">
+            <h3>Serviço 1</h3>
+            <p>Descrição do serviço 1.</p>
+        </div>
+        <div class="service-box">
+            <h3>Serviço 2</h3>
+            <p>Descrição do serviço 2.</p>
+        </div>
+    </section>
+
+    <section id="contato" class="info-section">
+        <h2>Contato</h2>
+        <p><strong>Email:</strong> <a href="mailto:alexcruz199905@gmail.com">alexcruz199905@gmail.com</a></p>
+        <p><strong>Telefone:</strong> <a href="tel:+950893363">950 893 363</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Meu Site. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
